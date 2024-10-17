@@ -43,7 +43,7 @@ Too late, I learned that certifications might have been a better track for me th
 
 Later, I'd like to share other sorts of content like CTF guides, breach analyses, and more. Stay tuned for more on those topics.
 
-Reach out to me by email at itsrad.io.privacy@gmail.com
+Send me an email at itsrad.io.privacy@gmail.com
 
 [Follow me on X](https://x.com/its_rad_io)
 
