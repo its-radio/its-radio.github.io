@@ -29,7 +29,9 @@ social: true # includes social icons at the bottom of the page
 
 Hey everyone, I'm Radio.
 
-**TL;DR:** I am a newly minted infosec professional trying to learn, share my experiences, and hopefully help others learn along the way. Check out my blog for summaries of lessons, CTFs, and my thoughts about the infosec world.
+**TL;DR:**
+
+I am a newly minted infosec professional trying to learn, share my experiences, and hopefully help others learn along the way. Check out my blog for summaries of lessons, CTFs, and my thoughts about the infosec world.
 
 **The Longer Version:**
 
