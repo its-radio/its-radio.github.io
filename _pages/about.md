@@ -6,16 +6,16 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_small.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#  more_info: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#  .  <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 
 #Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -27,24 +27,23 @@ social: true # includes social icons at the bottom of the page
 # text below this line goes into the page
 ---
 
-Hey everyone, I'm Radio.
-
 **TL;DR:**
 
-I am a newly minted infosec professional trying to learn, share my experiences, and hopefully help others learn along the way. Check out my blog for summaries of lessons, CTFs, and my thoughts about the infosec world.
+I am a newly minted infosec professional trying to learn, share my experiences, and hopefully help others learn along the way. I graduated in fall 2024 with a master's in Cybersecurity and in early 2025 earned the Certified Defensive Security Analyst (CDSA) certification from Hack The Box. Check out my blog for summaries of lessons, CTFs, and my thoughts about the infosec world.
 
 **The Longer Version:**
 
 I used to be an engineer. No, not the IT kind, the building-with-physical stuff kind. After 7 years in the field, I decided I wanted a more meaningful career. Meaning is a loaded word, but here it means that I wanted a career that required me to learn new things and [solve novel problems](https://www.youtube.com/watch?v=wGP1Tm8xyPI).
 
-I graduated with a Masters degree in Cybersecurity in August 2024, and since then I have been job hunting and figuring out what to do now that I have made this monumental shift. Now I have a problem. I have a degree, but I don't have any real-world experience. Sure, I have studied some hard skills in IT and security and I run some small-scale IT infrastructure at home, but my degree was more on the theoretical side than the practical.
+I graduated with a Masters degree in Cybersecurity in fall 2024, and since then I have been job hunting and figuring out what to do now that I have made this monumental shift. Now I have a problem. I have a degree, but I don't have any real-world experience. Sure, I have studied some hard skills in IT and security and I run some small-scale IT infrastructure at home, but my degree was more on the theoretical side than the practical.
 
-Too late, I learned that certifications might have been a better track for me than the masters degree. I considered both before jumping into the degree, but at the time academia sounded better than industry certs. C'est la vie. The masters was a great way to dive into the field and get a wholistic understanding of the space. That being said, now its time for some certifications, starting with HackTheBox's Certified Defensive Security Analyst (CDSA). I plan for notes and lesson summaries on that to make up the bulk of my early posts here.
+I decided to go for the CDSA because of its focus on practical, hands-on learning and testing. Each lesson includes live demos and problems that the students must solve before being eligible to take the exam. The exam consists of a 7-day-long simulated incident response in which the student must investigate and report on two separate security incidents. I loved this course, especially the exam. In my educational journey so far, the CDSA exam was the most interesting and engaging challenge I’ve encountered.
 
-Later, I'd like to share other sorts of content like CTF guides, breach analyses, and more. Stay tuned for more on those topics.
+Later, I'd like to share content related to my learning journey like CTF writeups, breach analyses, research and more. Stay tuned for more on those topics.
 
 Reach out to me by email at itsrad.io.privacy@gmail.com
 
 [Follow me on X](https://x.com/its_rad_io)
 
 [Check out my empty Github](https://github.com/its-radio)
+
