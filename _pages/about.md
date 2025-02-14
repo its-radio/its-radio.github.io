@@ -1,8 +1,10 @@
 ---
 layout: about
-title: about
+title: about # this is what will appear in the nav bar
+nav: false
+nav_order: 2
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://x.com/its_rad_io'>its_rad_io</a> <a>on Twitter |</a> <a href='https://www.linkedin.com/in/edmundhughes/'>Edmund Hughes</a> <a> on LinkedIn</a> 
 
 profile:
   align: right
