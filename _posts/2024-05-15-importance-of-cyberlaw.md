@@ -7,9 +7,16 @@ description: A short piece I wrote for a Cyberlaw class on the importance of cyb
 tags: law cyberlaw opinion
 categories: Opinion
 thumbnail: 
+
+related_publications: true
+
+# {% cite duggal_future_2016 --file 5-15-2024-importance-of-cyberlaw.bib %}
+
 ---
 
-Cyberlaw has become increasingly important since the advent of the internet. As Duggal {% reference hughes_hr4718_1986 %} aptly points out, at the beginning, the internet was like the Wild West–no laws, no limits, and no sheriff in town to keep bandits at bay. However, in the early days of internet-like entities in the 1960s and 1970s, there really wasn’t much interesting or valuable on the internet to steal. So it was like the wild west, but without trains to commandeer, stage coaches to hold up, or banks to rob. There were no laws, no law enforcement, but not much need for either.
+{% cite duggal_future_2016 --file 5-15-2024-importance-of-cyberlaw.bib %}
+
+Cyberlaw has become increasingly important since the advent of the internet. As Duggal {% cite einstein1950meaning %} aptly points out, at the beginning, the internet was like the Wild West–no laws, no limits, and no sheriff in town to keep bandits at bay. However, in the early days of internet-like entities in the 1960s and 1970s, there really wasn’t much interesting or valuable on the internet to steal. So it was like the wild west, but without trains to commandeer, stage coaches to hold up, or banks to rob. There were no laws, no law enforcement, but not much need for either.
 
 Over the years, the proverbial trains, stage coaches, and banks arrived on the internet. As nefarious activities began to become a problem, governments tried to address the issues with legislation, but they were already lagging behind. There have been many attempts to create and enforce laws to govern activities that occur online or on a computer. In the fairly early days, the US passed The Computer Fraud and Abuse Act of 1986 (Hughes, 1986) and The Computer Security Act of 1987 (Glickman, 1988). Other countries followed suit with the UK passing The Computer Misuse Act of 1990 (Townsend, 2019) and India enacting The Information Technology Act of 2000 (Negpal, 2007). As is true with all laws, these only applied to the countries in which they were passed. The result is a disparate smattering of laws across the globe, each one only governing a small geographic area while attempting to govern a global network.
 
