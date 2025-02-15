@@ -133,8 +133,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: its-radio's Infosec Blog # blog_name will be displayed in your blog page
+blog_description: Summaries, Explainers, Write-ups, and more
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -245,6 +245,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/about_me.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -306,8 +307,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["write-ups", "forensics", "HackTheBox"] # these tags will be displayed on the front page of your blog
+display_categories: ["write-ups"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

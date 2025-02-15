@@ -1,8 +1,6 @@
 ---
 layout: about
 title: about # this is what will appear in the nav bar
-nav: false
-nav_order: 2
 permalink: /
 subtitle: <a href='https://x.com/its_rad_io'>its_rad_io</a> <a>on Twitter |</a> <a href='https://www.linkedin.com/in/edmundhughes/'>Edmund Hughes</a> <a> on LinkedIn</a> 
 
@@ -29,23 +27,13 @@ social: false # includes social icons at the bottom of the page
 # text below this line goes into the page
 ---
 
-**TL;DR:**
+## My story
 
-I am a newly minted infosec professional trying to learn, share my experiences, and hopefully help others learn along the way. I graduated in fall 2024 with a master's in Cybersecurity and in early 2025 earned the Certified Defensive Security Analyst (CDSA) certification from Hack The Box. Check out my blog for summaries of lessons, CTFs, and my thoughts about the infosec world.
+### TL;DR
 
-**The Longer Version:**
+I am a newly minted infosec professional trying to continually learn, share my experiences, and hopefully help others learn along the way. I graduated in fall 2024 with a master's in Cybersecurity and in early 2025 earned the Certified Defensive Security Analyst (CDSA) certification from Hack The Box. Check out my blog for summaries of lessons, CTFs, and my thoughts about the infosec world.
 
-I used to be an engineer. No, not the IT kind, the building-with-physical stuff kind. After 7 years in the field, I decided I wanted a more meaningful career. Meaning is a loaded word, but here it means that I wanted a career that required me to learn new things and [solve novel problems](https://www.youtube.com/watch?v=wGP1Tm8xyPI).
+### The Longer Version
+Find it in the <a href="/people/">People section</a>.
 
-I graduated with a Masters degree in Cybersecurity in fall 2024, and since then I have been job hunting and figuring out what to do now that I have made this monumental shift. Now I have a problem. I have a degree, but I don't have any real-world experience. Sure, I have studied some hard skills in IT and security and I run some small-scale IT infrastructure at home, but my degree was more on the theoretical side than the practical.
-
-I decided to go for the CDSA because of its focus on practical, hands-on learning and testing. Each lesson includes live demos and problems that the students must solve before being eligible to take the exam. The exam consists of a 7-day-long simulated incident response in which the student must investigate and report on two separate security incidents. I loved this course, especially the exam. In my educational journey so far, the CDSA exam was the most interesting and engaging challenge I’ve encountered.
-
-Later, I'd like to share content related to my learning journey like CTF writeups, breach analyses, research and more. Stay tuned for more on those topics.
-
-Reach out to me by email at itsrad.io.privacy@gmail.com
-
-[Follow me on X](https://x.com/its_rad_io)
-
-[Check out my empty Github](https://github.com/its-radio)
-
+On this blog, I’ll share content related to my learning journey like CTF writeups, breach analyses, research and more. Stay tuned for more on those topics.
