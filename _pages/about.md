@@ -1,7 +1,9 @@
 ---
 layout: about
 title: about # this is what will appear in the nav bar
-permalink: /
+permalink: /about/
+nav: true
+nav_order: 2
 subtitle: <a href='https://x.com/its_rad_io'>its_rad_io</a> <a>on Twitter |</a> <a href='https://www.linkedin.com/in/edmundhughes/'>Edmund Hughes</a> <a> on LinkedIn</a> 
 
 profile:

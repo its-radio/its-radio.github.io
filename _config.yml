@@ -133,8 +133,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: its-radio's Infosec Blog # blog_name will be displayed in your blog page
-blog_description: Summaries, Explainers, Write-ups, and more
+blog_name: Edmund's Infosec Blog # blog_name will be displayed in your blog page
+blog_description: Summaries, Explainers, Write-ups, and Opinions
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
