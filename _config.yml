@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: its-radio's Infosec Blog # the website title (if blank, full name will be used instead). You must rerun `bundle exec jekyll serve` for this to update
+title: Edmund's Infosec Blog # the website title (if blank, full name will be used instead). You must rerun `bundle exec jekyll serve` for this to update
 first_name: Edmund
 middle_name: 
 last_name: Hughes

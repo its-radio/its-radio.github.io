@@ -31,7 +31,9 @@ social: false # includes social icons at the bottom of the page
 
 ### TL;DR
 
-I am a newly minted infosec professional trying to continually learn, share my experiences, and hopefully help others learn along the way. I graduated in fall 2024 with a master's in Cybersecurity and in early 2025 earned the Certified Defensive Security Analyst (CDSA) certification from Hack The Box. Check out my blog for summaries of lessons, CTFs, and my thoughts about the infosec world.
+I am a Mechanical & Civil Engineer turned infosec professional trying to continually increase my knowledge in the field, share my experiences, and hopefully help others learn along the way. I graduated in fall 2024 with a master's in Cybersecurity and in early 2025 earned the Certified Defensive Security Analyst (CDSA) certification from Hack The Box. Now, I'm searching for jobs while also working toward Hack The Box's Certified Bug Bounty Hunter (CBBH).
+
+If you're hiring for any roles in Information Security, especially SOC Analysis or Incident Response, and you like what you see on my blog, please reach out to me on [LinkedIn](https://www.linkedin.com/in/edmundhughes/).
 
 ### The Longer Version
 Find it in the <a href="/people/">People section</a>.
