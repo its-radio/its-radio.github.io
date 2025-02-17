@@ -1,10 +1,10 @@
 ---
 published: true
 layout: post
-title: HTB Write-Up | Sherlock | Compromised
+title: HTB Write-Up | Easy Sherlock | Compromised
 date: 2024-12-09
 description: A beginner-friendly write-up for Hack The Box's forensics challange 'Compromised'
-tags: forensics pcap HackTheBox 
+tags: forensics easy sherlock pcap HackTheBox 
 categories: Write-Ups
 thumbnail: assets/img/2025-02-14/thumb.webp
 ---

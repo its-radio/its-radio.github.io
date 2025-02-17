@@ -279,6 +279,14 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+# added to try to get blog to work as /
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+
 
 sass:
   style: compressed
