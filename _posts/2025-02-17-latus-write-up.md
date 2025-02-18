@@ -49,6 +49,14 @@ Nothing that a quick google search can't fix though. It turns out that .ad1 is a
 
 To open `evidence.ad1` we will need to user FTK Imager, which can be found in Exterro's [downloads section](https://www.exterro.com/ftk-product-downloads). It needs to be installed on Windows. You could probably run it on Linux via Wine, but for simplicity's sake, I just booted up a windows system and installed it there.
 
+Once you open up FTK Imager, just **file -> open ->** then select `evidence.ad1`. it should look like this upon opening.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/latus/2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 
 
 <div class="row mt-3">
