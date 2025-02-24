@@ -2,7 +2,7 @@
 published: True
 layout: post
 title: HTB Write-Up | Medium Sherlock | Nuts
-date: 2024-02-24
+date: 2025-02-24
 description: A write-up for Hack The Box's forensics challenge 'Nuts'
 tags: forensics medium sherlock HackTheBox 
 categories: Write-Ups
