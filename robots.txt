@@ -186,6 +186,16 @@
             
           
             
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
               
                 
                 <li class="nav-item ">
@@ -557,6 +567,17 @@ Sitemap: https://its-radio.github.io/sitemap.xml
           handler: () => {
             
               window.location.href = "/blog/2024/importance-of-cyberlaw/";
+            
+          },
+        },{id: "post-htb-write-up-medium-sherlock-nuts",
+          
+            title: "HTB Write-Up | Medium Sherlock | Nuts",
+          
+          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Nuts&#39;",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/Nuts-Write-Up/";
             
           },
         },{id: "news-a-simple-inline-announcement",
