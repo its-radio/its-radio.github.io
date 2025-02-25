@@ -29,15 +29,17 @@ social: false # includes social icons at the bottom of the page
 # text below this line goes into the page
 ---
 
-## My story
-
-### TL;DR
+## TL;DR
 
 I am a Mechanical & Civil Engineer turned infosec professional trying to continually increase my knowledge in the field, share my experiences, and hopefully help others learn along the way. I graduated in fall 2024 with a master's in Cybersecurity and in early 2025 earned the Certified Defensive Security Analyst (CDSA) certification from Hack The Box. Now, I'm searching for jobs while also working toward Hack The Box's Certified Bug Bounty Hunter (CBBH).
 
 If you're hiring for any roles in Information Security, especially SOC Analysis or Incident Response, and you like what you see on my blog, please reach out to me on [LinkedIn](https://www.linkedin.com/in/edmundhughes/).
 
-### The Longer Version
+## The Longer Version
 Find it in the <a href="/people/">People section</a>.
 
 On this blog, I’ll share content related to my learning journey like CTF writeups, breach analyses, research and more. Stay tuned for more on those topics.
+
+## Why Radio?
+
+One of my hobbies and passions is long distance hiking. I have hiked over 5000 miles through the wilderness areas in the United States. The majority of this mileage comes from completing the [Pacific Crest Trail](https://www.pcta.org/discover-the-trail/) (~2650 Miles) in 2018 and the [Appalachian Trail](https://appalachiantrail.org/explore/hike-the-a-t/thru-hiking/2000-milers/) (~2200 miles) in 2023. On long trails like these, it is typical to go by a "trail name" that other hikers call you for the duration of the hike. I recieved the trail name "Radio" on the Pacific Crest Trail, hence my various usernames related to radios.
