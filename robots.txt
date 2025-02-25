@@ -546,7 +546,7 @@ Sitemap: https://its-radio.github.io/sitemap.xml
           
             title: "HTB Write-Up | Medium Sherlock | Mellitus",
           
-          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Mellitus&#39;. This challenge focuses primarily on memory forensics, with the evidence consisting solely of a forensic memory dump from a targetted machine.",
+          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Mellitus&#39;. This challenge focuses primarily on memory forensics, with the evidence consisting solely of a forensic memory dump from a targeted machine.",
           section: "Posts",
           handler: () => {
             
