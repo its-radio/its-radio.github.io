@@ -2,11 +2,11 @@
 published: True
 layout: post
 title: HTB Write-Up | Medium Sherlock | Nuts
-date: 2025-02-24
-description: A write-up for Hack The Box's forensics challenge 'Nuts'
+date: 2025-02-20
+description: A write-up for Hack The Box's forensics challenge 'Nuts'. This challenge focuses primarily on file forensics, with the evidence consisting solely of a forensic image of a targetted filesystem.
 tags: forensics medium sherlock HackTheBox 
 categories: Write-Ups
-thumbnail: assets/img/compromised/thumb.webp
+thumbnail: assets/img/nuts/thumb.webp
 ---
 
 <style>
@@ -37,7 +37,7 @@ For whatever reason the `unzip` command has a hard time handling the evidence ar
     Fig. 1
 </div>
 
-Decompress the archive as shown and take a look at what's inside. you can use:
+Decompress the archive as shown and take a look at what's inside. You can use:
 
 ```bash
 7z x Nuts.zip
