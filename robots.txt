@@ -198,6 +198,10 @@
             
           
             
+          
+            
+          
+            
               
                 
                 <li class="nav-item ">
@@ -538,11 +542,22 @@ Sitemap: https://its-radio.github.io/sitemap.xml
               handler: () => {
                 window.location.href = "/people/";
               },
-            },{id: "post-htb-write-up-medium-sherlock-nuts",
+            },{id: "post-htb-write-up-medium-sherlock-mellitus",
+          
+            title: "HTB Write-Up | Medium Sherlock | Mellitus",
+          
+          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Mellitus&#39;. This challenge focuses primarily on memory forensics, with the evidence consisting solely of a forensic memory dump from a targetted machine.",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2025/Mellitus-Write-Up/";
+            
+          },
+        },{id: "post-htb-write-up-medium-sherlock-nuts",
           
             title: "HTB Write-Up | Medium Sherlock | Nuts",
           
-          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Nuts&#39;",
+          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Nuts&#39;. This challenge focuses primarily on file forensics, with the evidence consisting solely of a forensic image of a targetted filesystem.",
           section: "Posts",
           handler: () => {
             
@@ -551,9 +566,9 @@ Sitemap: https://its-radio.github.io/sitemap.xml
           },
         },{id: "post-how-chinese-spies-hacked-u-s-state-department-emails-threat-modeling-for-apts-and-aptaas",
           
-            title: "How Chinese Spies Hacked U.S. State Department Emails, Threat Modeling for APTs, and...",
+            title: "How Chinese Spies Hacked U.S. State Department Emails--Threat Modeling for APTs and APTaaS...",
           
-          description: "An informal discussion of Antique Typhoon&#39;s attack on Microsoft systems and email accounts associated with U.S Government personnel. A brief discussion of threat modelling and APTaaS",
+          description: "An informal discussion of Antique Typhoon&#39;s attack on Microsoft systems and email accounts associated with U.S Government personnel. A brief discussion of threat modelling and APTaaS.",
           section: "Posts",
           handler: () => {
             
