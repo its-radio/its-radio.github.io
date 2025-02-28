@@ -361,6 +361,7 @@ After some fiddling around in GIMP, I was able to produce the answer with the fo
     Fig. 17
 </div>
 
+It's upside down, but clearly reads *you_Foundme!*
 
 ## Conclusion
 

@@ -2,8 +2,8 @@
 published: false
 layout: post
 title: HTB Write-Up | Easy Sherlock | Compromised
-date: 2024-12-09
-description: A beginner-friendly write-up for Hack The Box's forensics challange 'Compromised'
+date: 2024-11-25
+description: A beginner-friendly write-up for Hack The Box's forensics challenge 'Compromised'
 tags: forensics easy sherlock pcap HackTheBox 
 categories: Write-Ups
 thumbnail: assets/img/compromised/thumb.webp
@@ -79,9 +79,9 @@ This is a handy feature of Wireshark that summarizes all the conversations (i.e.
     </div>
 </div>
 
-The conversations analysis shows that some IP addresses have exchanged significantly more data than others. While this is interesting, and should be noted for later, it doesn’t let us know exactly which IP was used for initial access. Lets try something else.
+The conversations analysis shows that some IP addresses have exchanged significantly more data than others. While this is interesting, and should be noted for later, it doesn’t let us know exactly which IP was used for initial access. Let's try something else.
 
-The outlying data transfers are large enough that its likely they could have transferred files over then network. Lets check if any of those files were transferred without encryption and in a way that we can extract them. Wireshark allows us to export objects that were transferred in the pcap we are looking at. Use **File > Export Objects > HTTP**.  I’m starting with HTTP just because that's a common protocol and likely to give us results.
+The outlying data transfers are large enough that it's likely they could have transferred files over the network. Let's check if any of those files were transferred without encryption and in a way that we can extract them. Wireshark allows us to export objects that were transferred in the pcap we are looking at. Use **File > Export Objects > HTTP**.  I’m starting with HTTP just because that's a common protocol and likely to give us results.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -206,7 +206,7 @@ Immediately one of the protocols stands out.
     </div>
 </div>
 
-DNS accounts for 76% of the packets and 37% of the bytes sent in this pcap. That is very abnormal as DNS is meant to resolve domain names, not transfer data. However, since DNS is whitelisted in almost every network, it is a popular choice for tunneling. It is likely the the tunneling occurred over dns, but what domain was used for the tunneling? To find out, lets apply a filter for ‘dns’ and check out the results.
+DNS accounts for 76% of the packets and 37% of the bytes sent in this pcap. That is very abnormal as DNS is meant to resolve domain names, not transfer data. However, since DNS is whitelisted in almost every network, it is a popular choice for tunneling. It is likely the tunneling occurred over dns, but what domain was used for the tunneling? To find out, let's apply a filter for ‘dns’ and check out the results.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -214,7 +214,7 @@ DNS accounts for 76% of the packets and 37% of the bytes sent in this pcap. That
     </div>
 </div>
 
-What we see in the screenshot above is repeated DNS queries for the same TLD (top level domain), but to different subdomains. The exfiltrated data is split up and encoded as these subdomain queries. The data will then reassembled on the other side by the attackers. This is another indicator of DNS tunneling, so we can be pretty confident that the TLD that these queries are for is the one they are looking for in the answer.
+What we see in the screenshot above is repeated DNS queries for the same TLD (top level domain), but to different subdomains. The exfiltrated data is split up and encoded as these subdomain queries. The data will then be reassembled on the other side by the attackers. This is another indicator of DNS tunneling, so we can be pretty confident that the TLD that these queries are for is the one they are looking for in the answer.
 
 Thanks for reading! If you have any questions or comments, feel free to reach out or follow [me on X](https://x.com/its_rad_io)
 

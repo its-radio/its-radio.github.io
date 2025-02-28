@@ -20,7 +20,7 @@ To add a table of contents to a post, simply add
 
 ```yml
 toc:
-  beginning: true
+  sidebar: true
 ```
 
 to the front matter of the post. The table of contents will be automatically generated from the headings in the post.
