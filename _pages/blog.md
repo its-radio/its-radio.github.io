@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /
 title: blog
-#nav: true  # commented out when making blog the homepage /
-#nav_order: 2
+permalink: /
+#nav: true
+#nav_order: 1
 pagination:
   enabled: true
   collection: posts

@@ -1,9 +1,9 @@
 ---
-published: false
+published: False
 layout: post
-title: Forensics Cheat Sheet | Windows | General
+title: Windows Forensics Cheat Sheet
 date: 2025-02-25
-description: This is a cheat sheet for Windows forensics. It is a summary of techniques for obtaining various types of information from various forensic sources from a Windows systems.
+description: This is a cheat sheet for Windows forensics. It is a summary of techniques for obtaining various types of information from various forensic sources from Windows systems.
 tags: forensics memory storate image cheatsheet
 categories: Cheatsheets
 thumbnail: assets/img/cs-windows/thumb.webp
@@ -19,11 +19,11 @@ toc:
 
 **! Disclaimers:**
 1. *All identifiable information on this page, including IP addresses, names, dates, and locations, is fictional or sourced from CTF-style challenges. Any resemblance to real-life situations is coincidental and does not pertain to actual individuals, companies, or computers.*
-2. *This cheat sheet is a work in progress. I only add to it as I learn/use techniques. If you notice any mistakes or obvious missing techniques, let me know and I'll add it.*
+2. *This cheat sheet is a continuing work in progress. I started it in late Feb 2025. I will add to it as I have time. If you notice any mistakes or obvious missing techniques, let me know and I'll add it.*
 
 
 # Introduction
-This is a cheat sheet for finding information on windows systems. There are some others like it, but I couldn't find anything that provided the range of techniques I was looking for. It is generally split into catagories like "Files" for where you can look for files, filenames, file hashes, file contents, etc. or "Network" where you could look for network configuration, local IP, DHCP server, network usage information, etc.
+This is a cheat sheet for finding information on Windows systems. There are some others like it, but I couldn't find anything that provided the range of techniques I was looking for. 
 
 ## How to navigate this page
 There are two good methods for finding what you need in the cheat sheet.
@@ -36,9 +36,11 @@ There are two good methods for finding what you need in the cheat sheet.
 ## Registry
 [EZ-Tools](https://ericzimmerman.github.io/#!index.md) RegistryExplorer
 
-# Where to find things {#locate}
+# Where to find/get things {#locate}
 
 ## Registry Hives {#locate-reg}
+
+### In the filesystem
 
 System registry hives are located in:
 
@@ -51,7 +53,6 @@ User-specific hives are located in:
 ```plain
 C:\Users\<username>\NTUSER.DAT
 ```
-
 
 # Network
 
@@ -239,4 +240,81 @@ If everything is in order, the credentials should be in the output.
 </div>
 <div class="caption">
     Dumping a credential file from Credential Manager
+</div>
+
+# Binary Analysis
+
+There are many types of binaries that require different techniques and tools for analysis. Below are some tools that could help with analysis of various binary types.
+
+## Classifying Binaries
+
+### File Command
+
+Use the `file` command to get a preliminary idea of what type of exe you are dealing with.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0 small-margin">
+        {% include figure.liquid loading="eager" path="assets/img/cs-windows/file-exe.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Revealing a Poertable Executable
+</div>
+
+### Detect It Easy
+
+According to their own description [Detect It Easy (DiE)](https://github.com/horsicq/Detect-It-Easy) is a powerful tool for file type identification.
+
+In this case, it didn't detect that this is a .NET Executable, but typically this is a very useful tool.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0 small-margin">
+        {% include figure.liquid loading="eager" path="assets/img/cs-windows/detectiteasy.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Using DiE to analyze a .NET Executable
+</div>
+
+### Strings
+
+`strings` is nearly always your friend when it comes to executables. Try dumping all the strings into a file, then grepping it or openning it it a text editor for manual searching.
+
+```bash
+strings smphost.exe > smphost.strings
+```
+
+```bash
+grep -i '\.net' smphost.strings
+```
+From the output below, we can identify that it was built with **.NET 8.0.4**
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0 small-margin">
+        {% include figure.liquid loading="eager" path="assets/img/cs-windows/net8PE.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Using `strings` and `grep` to identify a .NET executable.
+</div>
+
+## Decompiling Binaries
+
+This is a massive topic and I am by no means an expert, but here are some useful tools for decompilation.
+
+### Ghidra
+Ghidra is a general purpose reverse engineering tool. Get the NSA's Ghidra [here](https://ghidra-sre.org/).
+
+### DotPeek
+[DotPeek](https://www.jetbrains.com/decompiler/) is a free decompilation tool from JetBrains that allows easy decompilation of .NET executables.
+
+Look for interesting parts that were written by the authors. Don't get distracted by all the libraries, etc.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0 small-margin">
+        {% include figure.liquid loading="eager" path="assets/img/cs-windows/dotpeek.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Using DotPeek to decompile the important part a .NET executable.
 </div>

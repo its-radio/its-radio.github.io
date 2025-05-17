@@ -4,7 +4,8 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          <img src="{{ site.baseurl }}/assets/img/logo/radio-logo-512.png" alt="Logo" style="height: 60px; margin-right: 10px; margin-bottom: 20px;">
+          <img src="{{ site.baseurl }}/assets/img/logo/radio-logo-512.png" alt="Logo" style="height: 40px; margin-right: 0px; margin-bottom: 15px;">
+          <img src="{{ site.baseurl }}/assets/img/logo/name-gradient.png" alt="Logoname" style="height: 25px; margin-right: 10px; margin-bottom: 8px;">
           {% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
@@ -44,13 +45,28 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign blog_title = page.title %} {% endif %}
+            {% if page.permalink == '/' or page.permalink == '/index.html' %} {% assign home_title = page.title %} {% endif %}
           {% endfor %}
 
-          <!-- About -->
-          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+          <!-- Debug output 
+          <div style="color: red;">
+            Debug home_title: [{{- home_title -}}]<br>
+            All pages with their permalinks:<br>
+            {% for page in site.pages %}
+              Page title: [{{ page.title }}] - Permalink: [{{ page.permalink }}]<br>
+            {% endfor %}
+            <br>
+            Pages with root permalink:<br>
+            {% for page in site.pages %}{% if page.permalink == '/' %}
+              Found root page! Title: [{{ page.title }}] Permalink: [{{ page.permalink }}]<br>
+            {% endif %}{% endfor %}
+          </div>
+          end debug -->
+
+          <!-- Home -->
+          <li class="nav-item {% if page.permalink == '/' or page.permalink == '/index.html' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- blog_title }}
+              {{- home_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}

@@ -27,11 +27,11 @@
     // add the home and posts menu items
     ninja.data = [
       {%- for page in site.pages -%}
-        {%- if page.permalink == '/' -%}{%- assign blog_title = page.title | strip -%}{%- endif -%}
+        {%- if page.permalink == '/' -%}{%- assign home_title = page.title | strip -%}{%- endif -%}
       {%- endfor -%}
       {
-        id: "nav-{{ blog_title | slugify }}",
-        title: "{{ blog_title | truncatewords: 13 }}",
+        id: "nav-{{ home_title | slugify }}",
+        title: "{{ home_title | truncatewords: 13 }}",
         section: "Navigation",
         handler: () => {
           window.location.href = "{{ '/' | relative_url }}";
