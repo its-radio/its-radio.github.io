@@ -16,7 +16,7 @@
   
   
     
-       | Edmund's Infosec Blog
+       | Edmund Hughes
     
   
 </title>
@@ -114,7 +114,15 @@
     <div class="container">
       
         <a class="navbar-brand title font-weight-lighter" href="/">
-          Edmund's Infosec Blog
+          <img src="/assets/img/logo/radio-logo-512.png" alt="Logo" style="height: 40px; margin-right: 0px; margin-bottom: 15px;">
+          <img src="/assets/img/logo/name-gradient.png" alt="Logoname" style="height: 25px; margin-right: 10px; margin-bottom: 8px;">
+          
+            
+              <span class="font-weight-bold">Edmund</span>
+            
+            
+            Hughes
+          
         </a>
       
       <!-- Navbar Toggle -->
@@ -137,15 +145,102 @@
         <ul class="navbar-nav ml-auto flex-nowrap">
           
 
-          <!-- About -->
+          <!-- Debug output 
+          <div style="color: red;">
+            Debug home_title: [blog]<br>
+            All pages with their permalinks:<br>
+            
+              Page title: [Page not found] - Permalink: [/404.html]<br>
+            
+              Page title: [about] - Permalink: [/about/]<br>
+            
+              Page title: [more] - Permalink: []<br>
+            
+              Page title: [] - Permalink: []<br>
+            
+              Page title: [news] - Permalink: [/news/]<br>
+            
+              Page title: [people] - Permalink: [/people/]<br>
+            
+              Page title: [] - Permalink: [/robots.txt]<br>
+            
+              Page title: [law] - Permalink: []<br>
+            
+              Page title: [cyberlaw] - Permalink: []<br>
+            
+              Page title: [opinion] - Permalink: []<br>
+            
+              Page title: [china] - Permalink: []<br>
+            
+              Page title: [storm0558] - Permalink: []<br>
+            
+              Page title: [antiquetyphoon] - Permalink: []<br>
+            
+              Page title: [apt] - Permalink: []<br>
+            
+              Page title: [breach] - Permalink: []<br>
+            
+              Page title: [forensics] - Permalink: []<br>
+            
+              Page title: [medium] - Permalink: []<br>
+            
+              Page title: [sherlock] - Permalink: []<br>
+            
+              Page title: [HackTheBox] - Permalink: []<br>
+            
+              Page title: [memory] - Permalink: []<br>
+            
+              Page title: [volatility] - Permalink: []<br>
+            
+              Page title: [browser] - Permalink: []<br>
+            
+              Page title: [chrome] - Permalink: []<br>
+            
+              Page title: [Opinion] - Permalink: []<br>
+            
+              Page title: [Write-Ups] - Permalink: []<br>
+            
+              Page title: [Code] - Permalink: []<br>
+            
+              Page title: [] - Permalink: []<br>
+            
+              Page title: [] - Permalink: []<br>
+            
+              Page title: [] - Permalink: []<br>
+            
+              Page title: [] - Permalink: []<br>
+            
+              Page title: [blog] - Permalink: [/index.html]<br>
+            
+              Page title: [blog - page 2] - Permalink: [/page/2/index.html]<br>
+            
+              Page title: [] - Permalink: []<br>
+            
+              Page title: [] - Permalink: []<br>
+            
+            <br>
+            Pages with root permalink:<br>
+            
+          </div>
+          end debug -->
+
+          <!-- Home -->
           <li class="nav-item ">
-            <a class="nav-link" href="/">
+            <a class="nav-link" href="/">blog
               
             </a>
           </li>
 
           <!-- Other pages -->
           
+          
+            
+          
+            
+          
+            
+          
+            
           
             
           
@@ -522,8 +617,8 @@ Sitemap: https://its-radio.github.io/sitemap.xml
 
     // add the home and posts menu items
     ninja.data = [{
-        id: "nav-",
-        title: "",
+        id: "nav-blog",
+        title: "blog",
         section: "Navigation",
         handler: () => {
           window.location.href = "/";
@@ -542,7 +637,18 @@ Sitemap: https://its-radio.github.io/sitemap.xml
               handler: () => {
                 window.location.href = "/people/";
               },
-            },{id: "post-htb-write-up-medium-sherlock-mellitus",
+            },{id: "post-chrome-browser-history-plugin-for-volatility-3",
+          
+            title: "Chrome Browser History Plugin for Volatility 3",
+          
+          description: "A discription of a plugin I wrote for Volatility 3. The plugin searches for, extracts, and parses Google Chrome history databases in forensic memory images.",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2025/chrome_hx_volatility_plugin/";
+            
+          },
+        },{id: "post-htb-write-up-medium-sherlock-mellitus",
           
             title: "HTB Write-Up | Medium Sherlock | Mellitus",
           
