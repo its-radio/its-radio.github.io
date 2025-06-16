@@ -196,11 +196,23 @@
             
               Page title: [chrome] - Permalink: []<br>
             
+              Page title: [raspberrypi] - Permalink: []<br>
+            
+              Page title: [fan] - Permalink: []<br>
+            
+              Page title: [service] - Permalink: []<br>
+            
+              Page title: [python] - Permalink: []<br>
+            
+              Page title: [linux] - Permalink: []<br>
+            
               Page title: [Opinion] - Permalink: []<br>
             
               Page title: [Write-Ups] - Permalink: []<br>
             
               Page title: [Code] - Permalink: []<br>
+            
+              Page title: [Linux] - Permalink: []<br>
             
               Page title: [] - Permalink: []<br>
             
@@ -233,6 +245,18 @@
 
           <!-- Other pages -->
           
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
           
             
           
@@ -637,7 +661,18 @@ Sitemap: https://its-radio.github.io/sitemap.xml
               handler: () => {
                 window.location.href = "/people/";
               },
-            },{id: "post-chrome-browser-history-plugin-for-volatility-3",
+            },{id: "post-fan-service",
+          
+            title: "Fan Service",
+          
+          description: "The fan on my RaspberryPi NAS &amp; PiHole wouldn&#39;t stop running, so I built a custom solution.",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2025/raspberryos_fan_control/";
+            
+          },
+        },{id: "post-chrome-browser-history-plugin-for-volatility-3",
           
             title: "Chrome Browser History Plugin for Volatility 3",
           
