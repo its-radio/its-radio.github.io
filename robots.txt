@@ -180,6 +180,18 @@
             
               Page title: [breach] - Permalink: []<br>
             
+              Page title: [compliance] - Permalink: []<br>
+            
+              Page title: [security] - Permalink: []<br>
+            
+              Page title: [DoD] - Permalink: []<br>
+            
+              Page title: [CMMC] - Permalink: []<br>
+            
+              Page title: [standards] - Permalink: []<br>
+            
+              Page title: [NIST] - Permalink: []<br>
+            
               Page title: [forensics] - Permalink: []<br>
             
               Page title: [medium] - Permalink: []<br>
@@ -245,6 +257,18 @@
 
           <!-- Other pages -->
           
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
           
             
           
@@ -703,6 +727,28 @@ Sitemap: https://its-radio.github.io/sitemap.xml
           handler: () => {
             
               window.location.href = "/blog/2025/Nuts-Write-Up/";
+            
+          },
+        },{id: "post-how-to-implement-cmmc-at-your-organization",
+          
+            title: "How To Implement CMMC At Your Organization",
+          
+          description: "Basic considerations for what needs to be done to implement CMMC at any organization.",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/CMMC-2.0-Implementation/";
+            
+          },
+        },{id: "post-cmmc-2-0-is-important-for-the-dib-the-u-s-military-and-tax-payers-like-you-and-me",
+          
+            title: "CMMC 2.0 Is Important For The DIB, The U.S. Military, and Tax Payers...",
+          
+          description: "A short history of CMMC and the differences between CMMC 1.0 &amp; 2.0",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/CMMC-2.0-Summary/";
             
           },
         },{id: "post-how-chinese-spies-hacked-u-s-state-department-emails-threat-modeling-for-apts-and-aptaas",
