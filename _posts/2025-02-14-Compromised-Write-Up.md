@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: HTB Write-Up | Easy Sherlock | Compromised
 date: 2024-11-25

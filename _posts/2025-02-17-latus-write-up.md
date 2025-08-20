@@ -1,12 +1,12 @@
 ---
-published: false
+published: True
 layout: post
 title: HTB Write-Up | Hard Sherlock | Latus
 date: 2024-12-15
 description: A write-up for Hack The Box's forensics challenge 'Latus'
 tags: forensics hard sherlock HackTheBox 
 categories: Write-Ups
-thumbnail: assets/img/latus/thumb.webp
+thumbnail: assets/img/latus/thumb.png
 ---
 <style>
     .small-margin > * {
