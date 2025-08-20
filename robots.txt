@@ -194,11 +194,17 @@
             
               Page title: [forensics] - Permalink: []<br>
             
-              Page title: [medium] - Permalink: []<br>
+              Page title: [easy] - Permalink: []<br>
             
               Page title: [sherlock] - Permalink: []<br>
             
+              Page title: [pcap] - Permalink: []<br>
+            
               Page title: [HackTheBox] - Permalink: []<br>
+            
+              Page title: [hard] - Permalink: []<br>
+            
+              Page title: [medium] - Permalink: []<br>
             
               Page title: [memory] - Permalink: []<br>
             
@@ -238,6 +244,8 @@
             
               Page title: [blog - page 2] - Permalink: [/page/2/index.html]<br>
             
+              Page title: [blog - page 3] - Permalink: [/page/3/index.html]<br>
+            
               Page title: [] - Permalink: []<br>
             
               Page title: [] - Permalink: []<br>
@@ -257,6 +265,14 @@
 
           <!-- Other pages -->
           
+          
+            
+          
+            
+          
+            
+          
+            
           
             
           
@@ -727,6 +743,28 @@ Sitemap: https://its-radio.github.io/sitemap.xml
           handler: () => {
             
               window.location.href = "/blog/2025/Nuts-Write-Up/";
+            
+          },
+        },{id: "post-htb-write-up-hard-sherlock-latus",
+          
+            title: "HTB Write-Up | Hard Sherlock | Latus",
+          
+          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Latus&#39;",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/latus-write-up/";
+            
+          },
+        },{id: "post-htb-write-up-easy-sherlock-compromised",
+          
+            title: "HTB Write-Up | Easy Sherlock | Compromised",
+          
+          description: "A beginner-friendly write-up for Hack The Box&#39;s forensics challenge &#39;Compromised&#39;",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2024/Compromised-Write-Up/";
             
           },
         },{id: "post-how-to-implement-cmmc-at-your-organization",
