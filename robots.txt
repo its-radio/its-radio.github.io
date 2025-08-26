@@ -224,6 +224,10 @@
             
               Page title: [linux] - Permalink: []<br>
             
+              Page title: [dfir] - Permalink: []<br>
+            
+              Page title: [catscale] - Permalink: []<br>
+            
               Page title: [Opinion] - Permalink: []<br>
             
               Page title: [Write-Ups] - Permalink: []<br>
@@ -265,6 +269,10 @@
 
           <!-- Other pages -->
           
+          
+            
+          
+            
           
             
           
@@ -701,7 +709,18 @@ Sitemap: https://its-radio.github.io/sitemap.xml
               handler: () => {
                 window.location.href = "/people/";
               },
-            },{id: "post-fan-service",
+            },{id: "post-htb-write-up-easy-sherlock-ultimatum",
+          
+            title: "HTB Write-Up | Easy Sherlock | Ultimatum",
+          
+          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Ultimatum&#39;. This challenge focuses primarily on analysis of evidence that was forensically collected from a compromised machine using CatScale.sh",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2025/Ultimatum-Write-Up/";
+            
+          },
+        },{id: "post-fan-service",
           
             title: "Fan Service",
           
