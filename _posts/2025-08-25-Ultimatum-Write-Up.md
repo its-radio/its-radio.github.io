@@ -6,7 +6,7 @@ date: 2025-08-25
 description: A write-up for Hack The Box's forensics challenge 'Ultimatum'. This challenge focuses primarily on analysis of evidence that was forensically collected from a compromised machine using CatScale.sh
 tags: forensics easy sherlock HackTheBox dfir catscale
 categories: Write-Ups
-thumbnail: assets/img/ultimatum/thumb.webp
+thumbnail: assets/img/ultimatum/thumb.png
 ---
 
 <style>
