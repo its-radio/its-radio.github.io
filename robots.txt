@@ -228,6 +228,10 @@
             
               Page title: [catscale] - Permalink: []<br>
             
+              Page title: [windows] - Permalink: []<br>
+            
+              Page title: [email] - Permalink: []<br>
+            
               Page title: [Opinion] - Permalink: []<br>
             
               Page title: [Write-Ups] - Permalink: []<br>
@@ -269,6 +273,10 @@
 
           <!-- Other pages -->
           
+          
+            
+          
+            
           
             
           
@@ -709,7 +717,18 @@ Sitemap: https://its-radio.github.io/sitemap.xml
               handler: () => {
                 window.location.href = "/people/";
               },
-            },{id: "post-htb-write-up-easy-sherlock-ultimatum",
+            },{id: "post-htb-write-up-medium-sherlock-heartbreaker",
+          
+            title: "HTB Write-Up | medium Sherlock | Heartbreaker",
+          
+          description: "A write-up for Hack The Box&#39;s forensics challenge &#39;Heartbreaker&#39;. This challenge focuses primarily on analysis of an evidence dump from a machine that was compromised following an employee opening a malicious email.",
+          section: "Posts",
+          handler: () => {
+            
+              window.location.href = "/blog/2025/Heartbreaker-Write-Up/";
+            
+          },
+        },{id: "post-htb-write-up-easy-sherlock-ultimatum",
           
             title: "HTB Write-Up | Easy Sherlock | Ultimatum",
           
